@@ -135,6 +135,18 @@ text-decoration: none;
 
  /* add another indication of styling for what page you are on */
 
+ body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
  @media (min-width: 768px) {
 nav {
     margin: 0 auto;
@@ -163,7 +175,7 @@ nav {
 }
 }
 
-img {
+/* img {
     cursor: pointer;
 }
 
@@ -190,4 +202,4 @@ img {
 #enlarged-img img {
     max-width: 80%;
     max-height: 80%;
-}
+} */
